@@ -1,0 +1,5 @@
+[default]
+entity = m509ua
+project = SAC
+base_url = https://api.wandb.ai
+

@@ -1,0 +1,31 @@
+
+Starting local train
+Episode: 1 | Num Steps: 8758 | metrics: {'p_cost': 1.17713, 'e_cost': 1.5065, 'g_cost': 1.79665, 'avg': 1.49343}
+Episode: 2 | Num Steps: 17517 | metrics: {'p_cost': 0.85274, 'e_cost': 1.00137, 'g_cost': 1.15135, 'avg': 1.00182}
+Episode: 3 | Num Steps: 26276 | metrics: {'p_cost': 0.8548, 'e_cost': 0.99634, 'g_cost': 1.17972, 'avg': 1.01029}
+Episode: 4 | Num Steps: 35035 | metrics: {'p_cost': 0.81863, 'e_cost': 0.98415, 'g_cost': 1.18894, 'avg': 0.99724}
+Episode: 5 | Num Steps: 43794 | metrics: {'p_cost': 0.81408, 'e_cost': 0.97525, 'g_cost': 1.17482, 'avg': 0.98805}
+Episode: 6 | Num Steps: 52553 | metrics: {'p_cost': 0.7976, 'e_cost': 0.96574, 'g_cost': 1.14281, 'avg': 0.96872}
+Episode: 7 | Num Steps: 61312 | metrics: {'p_cost': 0.78207, 'e_cost': 0.95317, 'g_cost': 1.13564, 'avg': 0.95696}
+Episode: 8 | Num Steps: 70071 | metrics: {'p_cost': 0.76781, 'e_cost': 0.94421, 'g_cost': 1.10753, 'avg': 0.93985}
+Episode: 9 | Num Steps: 78830 | metrics: {'p_cost': 0.76576, 'e_cost': 0.94336, 'g_cost': 1.10424, 'avg': 0.93779}
+Episode: 10 | Num Steps: 87589 | metrics: {'p_cost': 0.76143, 'e_cost': 0.94058, 'g_cost': 1.09808, 'avg': 0.93336}
+Episode: 11 | Num Steps: 96348 | metrics: {'p_cost': 0.76041, 'e_cost': 0.94033, 'g_cost': 1.09758, 'avg': 0.93277}
+Episode: 12 | Num Steps: 105107 | metrics: {'p_cost': 0.75271, 'e_cost': 0.93727, 'g_cost': 1.09281, 'avg': 0.9276}
+Episode: 13 | Num Steps: 113866 | metrics: {'p_cost': 0.75387, 'e_cost': 0.93604, 'g_cost': 1.08144, 'avg': 0.92378}
+Episode: 14 | Num Steps: 122625 | metrics: {'p_cost': 0.75439, 'e_cost': 0.93413, 'g_cost': 1.08469, 'avg': 0.9244}
+Episode: 15 | Num Steps: 131384 | metrics: {'p_cost': 0.75049, 'e_cost': 0.93212, 'g_cost': 1.07887, 'avg': 0.92049}
+Episode: 16 | Num Steps: 140143 | metrics: {'p_cost': 0.75226, 'e_cost': 0.93323, 'g_cost': 1.08209, 'avg': 0.92253}
+Episode: 17 | Num Steps: 148902 | metrics: {'p_cost': 0.7461, 'e_cost': 0.93146, 'g_cost': 1.08331, 'avg': 0.92029}
+Episode: 18 | Num Steps: 157661 | metrics: {'p_cost': 0.74518, 'e_cost': 0.92929, 'g_cost': 1.08974, 'avg': 0.92141}
+Episode: 19 | Num Steps: 166420 | metrics: {'p_cost': 0.7453, 'e_cost': 0.93078, 'g_cost': 1.08274, 'avg': 0.91961}
+Episode: 20 | Num Steps: 175179 | metrics: {'p_cost': 0.74303, 'e_cost': 0.92823, 'g_cost': 1.0859, 'avg': 0.91906}
+Episode: 21 | Num Steps: 183938 | metrics: {'p_cost': 0.74579, 'e_cost': 0.93012, 'g_cost': 1.08277, 'avg': 0.91956}
+Episode: 22 | Num Steps: 192697 | metrics: {'p_cost': 0.73751, 'e_cost': 0.92553, 'g_cost': 1.08047, 'avg': 0.9145}
+Episode: 23 | Num Steps: 201456 | metrics: {'p_cost': 0.74012, 'e_cost': 0.92518, 'g_cost': 1.0752, 'avg': 0.9135}
+Episode: 24 | Num Steps: 210215 | metrics: {'p_cost': 0.73666, 'e_cost': 0.92421, 'g_cost': 1.07348, 'avg': 0.91145}
+Episode: 25 | Num Steps: 218974 | metrics: {'p_cost': 0.7418, 'e_cost': 0.92487, 'g_cost': 1.07565, 'avg': 0.91411}
+Episode: 26 | Num Steps: 227733 | metrics: {'p_cost': 0.74224, 'e_cost': 0.92382, 'g_cost': 1.07728, 'avg': 0.91445}
+Episode: 27 | Num Steps: 236492 | metrics: {'p_cost': 0.74034, 'e_cost': 0.92275, 'g_cost': 1.08175, 'avg': 0.91495}
+Episode: 28 | Num Steps: 245251 | metrics: {'p_cost': 0.73926, 'e_cost': 0.92208, 'g_cost': 1.08213, 'avg': 0.91449}
+Episode: 29 | Num Steps: 254010 | metrics: {'p_cost': 0.73724, 'e_cost': 0.92049, 'g_cost': 1.07199, 'avg': 0.9099}

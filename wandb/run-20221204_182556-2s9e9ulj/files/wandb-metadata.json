@@ -1,0 +1,36 @@
+{
+    "os": "macOS-12.4-x86_64-i386-64bit",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-12-05T01:25:57.512329",
+    "startedAt": "2022-12-05T01:25:56.878704",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/user/Documents/ipynb RD \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430/pycharm/citylearn-2022-starter-kit-master/local_train_custom.py",
+    "codePath": "local_train_custom.py",
+    "host": "user",
+    "username": "user",
+    "executable": "/Users/user/Documents/ipynb RD \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430/pycharm/citylearn-2022-starter-kit-master/venv/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "total": 112.70698928833008,
+        "used": 21.837711334228516
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

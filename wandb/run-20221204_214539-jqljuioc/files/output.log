@@ -1,0 +1,12 @@
+
+Starting local train
+Episode: 1 | Num Steps: 8758 | metrics: {'p_cost': 1.17337, 'e_cost': 1.50918, 'g_cost': 1.78059, 'avg': 1.48771}
+Episode: 2 | Num Steps: 17517 | metrics: {'p_cost': 0.82486, 'e_cost': 0.98925, 'g_cost': 1.13284, 'avg': 0.98232}
+Episode: 3 | Num Steps: 26276 | metrics: {'p_cost': 0.83793, 'e_cost': 0.98622, 'g_cost': 1.1643, 'avg': 0.99615}
+Episode: 4 | Num Steps: 35035 | metrics: {'p_cost': 0.81701, 'e_cost': 0.97643, 'g_cost': 1.15874, 'avg': 0.98406}
+Episode: 5 | Num Steps: 43794 | metrics: {'p_cost': 0.80002, 'e_cost': 0.96778, 'g_cost': 1.154, 'avg': 0.97393}
+Episode: 6 | Num Steps: 52553 | metrics: {'p_cost': 0.79359, 'e_cost': 0.96381, 'g_cost': 1.13858, 'avg': 0.96533}
+Episode: 7 | Num Steps: 61312 | metrics: {'p_cost': 0.78224, 'e_cost': 0.95558, 'g_cost': 1.13264, 'avg': 0.95682}
+Episode: 8 | Num Steps: 70071 | metrics: {'p_cost': 0.77286, 'e_cost': 0.94588, 'g_cost': 1.10251, 'avg': 0.94042}
+Episode: 9 | Num Steps: 78830 | metrics: {'p_cost': 0.76501, 'e_cost': 0.94592, 'g_cost': 1.11149, 'avg': 0.94081}
+Episode: 10 | Num Steps: 87589 | metrics: {'p_cost': 0.75887, 'e_cost': 0.94229, 'g_cost': 1.09796, 'avg': 0.93304}
