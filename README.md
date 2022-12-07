@@ -1,5 +1,5 @@
 
-## Hedieh Rauan CityLearn challange for MATH509 Final Project Fall 2022.
+## Hedieh and Rauan CityLearn challange for MATH509 Final Project Fall 2022.
 
 ![Citylearn Banner](https://images.aicrowd.com/uploads/ckeditor/pictures/906/content_Card_Banner.jpg)
 
