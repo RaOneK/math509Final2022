@@ -1,3 +1,8 @@
+
+## Hedieh and Rauan CityLearn challange for MATH509 Final Project Fall 2022.
+
+Readme below is kept verbatim to the challange toolkit version. 
+
 ![Citylearn Banner](https://images.aicrowd.com/uploads/ckeditor/pictures/906/content_Card_Banner.jpg)
 
 # [NeurIPS 2022 Citylearn Challenge](https://www.aicrowd.com/challenges/neurips-2022-citylearn-challenge) - Starter Kit 
