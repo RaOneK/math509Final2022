@@ -115,8 +115,8 @@ The data folder consists of different files:
 		\centering	
 			\subfigure[Day type]{\includegraphics[height=0.25\textwidth]{bd1.png}\label{fig:bd1}} \quad
 			\subfigure[Consumption/Generation of electricity by buildings]{\includegraphics[height=0.35\textwidth]{bdGenCons.png}\label{fig:bdGenCons}}
-		\caption{\small Electricity pricing.}
-	\end{figure}
+			\caption{\small Electricity pricing.}
+		\end{figure}
 		Each building contains:
 		\begin{enumerate}
 			\item Month	[1-12].
@@ -133,15 +133,30 @@ The data folder consists of different files:
 			\item Solar Generation [W/kW].
 		\end{enumerate}
 		
-		
-
-
-		
-		
-		
 \end{itemize}
 
-\section{Data augmentation}
+\section{Data augmentation using CTGAN}
+
+As mentioned before, having a limited and small dataset was one of our challenges in this project. In order to tackle this problem we used a data augmentation technique. Data augmentation is a technique to artificially create new data from existing data and significantly increase the diversity of data available for training the models. Most of the models that are used for generating tabular data are based on modelling the probability distribution of rows in the dataset and sampling from the distribution. These models are mainly used for continuous data while our tabular data contains a mix of discrete and continuous columns. One of the frameworks that can be used for generating continuous and discrete data is CTGAN- conditional generative adversarial networks.
+
+CTGAN is a collection of Deep Learning based synthetic data generators for single table data, which are able to learn from real data and generate synthetic data with high fidelity. A GAN consists of two Neural Networks:
+\begin{itemize}
+	\item A generator that learns to produce fake data;
+	\item A discriminator that learns to distinguish the generator’s fake data from the real data.
+\end{itemize} 
+
+\begin{figure}[H]
+		{\centering
+		  {\includegraphics[width = 0.7\textwidth]{CTGAN}
+		  }
+		  \par}
+		\caption{Generating tabular data using GAN.}
+		\label{fig:carbon}
+		\end{figure}
+
+The two models compete against each other. At the start of the training, the generator is not very good at generating fake data, and the discriminator is able to catch the fake data easily. But as training progresses, the generator learns to get progressively better at generating fake data, and fooling the discriminator, until the discriminator is unable to tell if the input is real or not. This procedure drives the whole system toward optimization.
+
+In this project, we tried to use CTGAN from Synthetic Data Vault (SDV) library to generate and add 1000 rows to our dataset. Although because our data is time series this technique didn't work.
 
 \section{User client and Target Variables}
 
