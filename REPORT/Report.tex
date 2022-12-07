@@ -444,14 +444,11 @@ The power consumption (figure~\ref{fig:gpu-pow1}-\ref{fig:gpu-pow2}) of the Grap
 		\caption{Individual target variables.}
 	\end{figure}
 	
-The target variables appear to converge within 250 episodes in around 26 hours resulting in the average of \verb!0.7963! (figure~\ref{fig:pe-avg}) with \verb!0.7013, 0.8912! of Price~\ref{fig:p-cost} and Emission~\ref{fig:e-cost} costs shown in figures. The computation of the last 100 episodes did almost zero change to the results. Running the script on a PC killed the machine after 50 episodes. The cluster run finished successfully. 
+The target variables appear to converge within 250 episodes in around 26 hours resulting in the average of \verb!0.7963! (figure~\ref{fig:pe-avg}) with \verb!0.7013, 0.8912! of Price~\ref{fig:p-cost} and Emission~\ref{fig:e-cost} costs shown in figures. The computation of the last 100 episodes did almost zero change to the results. Running the script on a PC killed the machine after 50 episodes while the cluster run finished successfully. 
 
 The sharp peak at the first iteration is due to the SAC algorithm performing random actions at the beginning to explore the environment and build its policy. 
 
 To conclude Reinforcement Learning with a Soft Actor-Critic approach does look to be interesting and promising, however, training takes a large amount of time and energy even given a small dataset (5 sets of 12 variables with 8000 values each). 
-
-
-%\newpage
 		
 
 \bibliographystyle{plain}
