@@ -770,4 +770,119 @@ Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/local/tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count326
+)
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
+ (./Report.out) (./Report.out)
+\@outlinefile=\write4
+\openout4 = `Report.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write5
+\openout5 = `Report.toc'.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Reference `fig:weather' on page 2 undefined on input line 75.
+
+<weatherData.png, id=18, 1303.36937pt x 731.23187pt>
+File: weatherData.png Graphic file (type png)
+<use weatherData.png>
+Package pdftex.def Info: weatherData.png  used on input line 85.
+(pdftex.def)             Requested size: 266.14978pt x 149.31215pt.
+[2 <./weatherData.png>]
+
+LaTeX Warning: Reference `fig:pricing' on page 3 undefined on input line 93.
+
+<pricingDataAll.png, id=38, 1299.85625pt x 731.23187pt>
+File: pricingDataAll.png Graphic file (type png)
+<use pricingDataAll.png>
+Package pdftex.def Info: pricingDataAll.png  used on input line 97.
+(pdftex.def)             Requested size: 157.70158pt x 88.71434pt.
+<pricingDataTransition.png, id=39, 1303.36937pt x 731.23187pt>
+File: pricingDataTransition.png Graphic file (type png)
+<use pricingDataTransition.png>
+Package pdftex.def Info: pricingDataTransition.png  used on input line 98.
+(pdftex.def)             Requested size: 158.1278pt x 88.71434pt.
+
+LaTeX Warning: Reference `fig:carbon' on page 3 undefined on input line 101.
+
+<carbonIntensity.png, id=40, 1299.85625pt x 731.23187pt>
+File: carbonIntensity.png Graphic file (type png)
+<use carbonIntensity.png>
+Package pdftex.def Info: carbonIntensity.png  used on input line 104.
+(pdftex.def)             Requested size: 177.42868pt x 99.8055pt.
+
+LaTeX Warning: Reference `fig:bd1' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Reference `fig:bdGenCons' on page 3 undefined on input line 113.
+
+
+<bd1.png, id=41, 1290.32062pt x 731.23187pt>
+File: bd1.png Graphic file (type png)
+<use bd1.png>
+Package pdftex.def Info: bd1.png  used on input line 116.
+(pdftex.def)             Requested size: 195.66612pt x 110.8946pt.
+<bdGenCons.png, id=42, 1303.36937pt x 731.23187pt>
+File: bdGenCons.png Graphic file (type png)
+<use bdGenCons.png>
+Package pdftex.def Info: bdGenCons.png  used on input line 117.
+(pdftex.def)             Requested size: 197.64485pt x 110.8946pt.
+[3 <./pricingDataAll.png> <./pricingDataTransition.png> <./carbonIntensity.png>
+ <./bd1.png> <./bdGenCons.png>] [4]
+
+./Report.tex:195: LaTeX Error: Unicode character ​ (U+200B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 ...any advances in this exciting area of ​
+                                                  ​research. For example, ...
+
+? 
+./Report.tex:195: Emergency stop.
+ ...                                              
+                                                  
+l.195 ...any advances in this exciting area of ​
+                                                  ​research. For example, ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+ 
+Here is how much of TeX's memory you used:
+ 23960 strings out of 478268
+ 460053 string characters out of 5846347
+ 830856 words of memory out of 5000000
+ 41727 multiletter control sequences out of 15000+600000
+ 477925 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 100i,8n,104p,510b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+./Report.tex:195:  ==> Fatal error occurred, no output PDF file produced!

@@ -156,21 +156,18 @@ CTGAN is a collection of Deep Learning based synthetic data generators for singl
 
 The two models compete against each other. At the start of the training, the generator is not very good at generating fake data, and the discriminator is able to catch the fake data easily. But as training progresses, the generator learns to get progressively better at generating fake data, and fooling the discriminator, until the discriminator is unable to tell if the input is real or not. This procedure drives the whole system toward optimization.
 
-In this project, we tried to use CTGAN from Synthetic Data Vault (SDV) library to generate and add 1000 rows to our dataset. Although because our data is time series this technique didn't work.
+In this project, we tried to use CTGAN from Synthetic Data Vault (SDV) library to generate and add 1000 rows to our dataset. Although because our data is time series this technique didn't work. 
 
 \section{User client and Target Variables}
 
-The dataset provided by the competition is expected to have some score evaluation algorithm, the file \verb!local_evaluation.py! or its modifications. The target values are 
+The dataset provided by the competition is expected to have some score evaluation algorithm, the file \verb!local_evaluation.py! or its modifications. The target values to mininmize are 
 \begin{enumerate}
 	\item \verb!Average Price Cost! - reduce electricity consumption from the power plant by individual buildings.
 	\item \verb!Average Emmision Cost! - reduce $CO_2$ emissions into the atmosphere by individual buildings.
 	\item \verb!Average Grid Cost!. - the rate of the whole district's electricity consumption.
 \end{enumerate}
 
-
-
-
-
+The neutral behaviour of the agent will result in values of all three variables equal to $1.0$. Both verbatim and modified version of the evaluation was run to check the results. A floating point action between $-1.0$ and $+1.0$ needs to be performed every hour by an agent, which stands for the battery being charged or discharged. One may represent this action as turning a continuous switch. 
 
 
 
